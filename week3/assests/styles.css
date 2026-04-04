@@ -1,0 +1,95 @@
+/*// <weight>: Use a value from 100 to 900
+// <uniquifier>: Use a unique and descriptive class name
+
+.roboto-<uniquifier> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
+}*/
+/*// <weight>: Use a value from 200 to 1000
+// <uniquifier>: Use a unique and descriptive class name
+
+.nunito-<uniquifier> {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+*/
+
+*{
+    /* CSS HEX */
+    --base:#463239ff;
+    --borderColor:#cdc392ff;
+    --cardColor:#1f7a8cff ;
+    --accentColor: #ac7b7dff;
+    color: black; 
+}
+body{
+    background-color: #ac7b7dff;
+    background-image: url('./css-pattern-by-magicpattern.png');
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.AtAGLANCE{
+    font-family: "Nunito", sans-serif;
+    font-weight: 900;
+    font-style: oblique;
+
+
+}
+header {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-bottom: 32px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 900;
+    color: var(--cardColor);
+    font-size: 15px;
+}
+.title{
+    font-family: "Nunito", sans-serif;
+        font-weight: 900;
+        font-size: 70px;
+        font-style: italic;
+     margin-bottom: 32px;
+text-align: center;
+opacity: .7;
+}
+.cards{
+    background-color: transparent;
+
+}
+.cards div{
+    background-color: var(--cardColor);
+    border: 8px solid var(--borderColor);
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    border-radius: 100px;
+    width: 25%;
+    
+}
+
+.images div{
+    background-color: var(--borderColor);
+    border: 8px solid var(--cardColor);
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    border-radius: 50px;
+    width: 25%;
+}
+.lifetime{
+    font-family: "Nunito", sans-serif;
+    font-weight: 900;
+    color: var(--accentColor);
+    font-size: 15px;
+    background-color: var(--accentColor);
+}
